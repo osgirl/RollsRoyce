@@ -1,0 +1,95 @@
+@media (max-width: 450px) {
+  .wc-card {
+    border: 1px solid #d2dde5;
+    width: 198px; }
+  .wc-adaptive-card {
+    width: 214px; } }
+
+@media (min-width: 768px) {
+  .wc-card {
+    border: 1px solid #d2dde5;
+    width: 398px; }
+  .wc-adaptive-card {
+    width: 414px; } }
+
+@media(max-width: 767px) {
+.wc-chatview-panel {
+left: -2px!important;
+right: -2px!important;
+top: 0px!important;
+bottom: -2px!important;
+width: auto!important;
+height: auto!important;
+min-width: 100px;
+max-height: 100%;
+position:fixed;
+}
+}
+
+@media(max-width: 320px) {
+.wc-message-from-bot .wc-message-content {
+  background-color: #eceff1;
+  color: #000000;
+  border-radius: 15px;
+  min-width:20%;
+  max-width: 230px; }
+
+.wc-message-from-me .wc-message-content {
+  background-color: #4066B3;
+  color: #ffffff;
+  border-radius: 15px;
+  min-width:20%;
+  max-width: 230px; }
+
+.responseCard{
+    background: white;
+    width: 220px; }
+
+  .ac-pushButton{
+    background-color: transparent;
+    color: #0078d7;
+    border: 2px solid #ccc;
+   margin: auto;
+   height: 35px;
+   width: 200px;}
+
+ }
+
+/*@media(max-width: 1024px) {
+.wc-chatview-panel {
+left: 10px!important;
+right: 10px!important;
+top: 0px!important;
+bottom: 10px!important;
+width: 400px;
+height: 100%;
+min-width: 400px;
+max-height: 100%;
+position:fixed;
+}
+.wc-message-from-bot .wc-message-content {
+  background-color: #eceff1;
+  color: #000000;
+  border-radius: 15px;
+  min-width:20%;
+  max-width: 280px; }
+
+.wc-message-from-me .wc-message-content {
+  background-color: #4066B3;
+  color: #ffffff;
+  border-radius: 15px;
+  min-width:20%;
+  max-width: 280px; }
+
+.responseCard{
+    background: white;
+    width: 260px; }
+
+  .ac-pushButton{
+    background-color: transparent;
+    color: #0078d7;
+    border: 2px solid #ccc;
+   margin: auto;
+   height: 35px;
+   width: 250px;}
+}*/
